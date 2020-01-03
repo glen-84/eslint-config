@@ -1,0 +1,47 @@
+{
+  "name": "@glen-84/eslint-config",
+  "version": "1.0.0",
+  "description": "A shareable ESLint config for TypeScript projects.",
+  "author": "Glen Ainscow",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.js\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.14.0",
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "devDependencies": {
+    "@glen-84/prettier-config": "^1.0.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glen-84/eslint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "prettier": "@glen-84/prettier-config"
+}
