@@ -10,8 +10,8 @@ A shareable [ESLint](https://eslint.org/) config for TypeScript projects.
     ```npmrc
     @glen-84:registry=https://npm.pkg.github.com
     ```
-1. Run `npm install @glen-84/eslint-config --save-dev`.
-2. Add `"@glen-84"` to the `extends` property in your `.eslintrc.js` file.
+2. Run `npm install @glen-84/eslint-config --save-dev`.
+3. Add `"@glen-84"` to the `extends` property in your `.eslintrc.js` file.
 
 ## Development
 
