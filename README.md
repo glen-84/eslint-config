@@ -47,7 +47,6 @@ Run `npm install` to install the project dependencies.
 * `@typescript-eslint/no-extra-parens` – extra parentheses sometimes aid readability.
 * `@typescript-eslint/no-magic-numbers` – difficult to follow, especially in existing projects.
 * `@typescript-eslint/no-type-alias` – partly handled by `@typescript-eslint/consistent-type-definitions`.
-* `@typescript-eslint/require-await` – see discussion in https://github.com/eslint/eslint/issues/6820.
 * `init-declarations`
 * `line-comment-position`
 * `no-continue` – see discussion in https://github.com/airbnb/javascript/issues/1103.
