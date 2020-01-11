@@ -22,7 +22,7 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.14.0",
+    "@typescript-eslint/parser": "^2.15.0",
     "confusing-browser-globals": "^1.0.9"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "prettier": "^1.19.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
     "eslint": "^6.8.0"
   },
   "repository": {
