@@ -31,10 +31,6 @@ Run `npm install` to install the project dependencies.
 
 * `@typescript-eslint/strict-boolean-expressions`
     * https://github.com/typescript-eslint/typescript-eslint/issues/1025
-* `@typescript-eslint/unbound-method`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/636
-    * https://github.com/typescript-eslint/typescript-eslint/issues/700
-    * https://github.com/typescript-eslint/typescript-eslint/issues/743
 * `lines-between-class-members`
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `no-invalid-this`

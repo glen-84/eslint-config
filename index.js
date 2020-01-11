@@ -132,6 +132,7 @@ module.exports = {
         "@typescript-eslint/space-before-function-paren": ["error", {named: "never"}],
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
+        "@typescript-eslint/unbound-method": "error",
         "@typescript-eslint/unified-signatures": "error",
         "accessor-pairs": ["error", {enforceForClassMembers: true}],
         "array-bracket-newline": ["error", "consistent"],
