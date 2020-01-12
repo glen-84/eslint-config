@@ -130,6 +130,10 @@ module.exports = {
         "@typescript-eslint/return-await": "error",
         "@typescript-eslint/semi": "error",
         "@typescript-eslint/space-before-function-paren": ["error", {named: "never"}],
+        "@typescript-eslint/strict-boolean-expressions": [
+            "error",
+            {allowNullable: true, allowSafe: true, ignoreRhs: true}
+        ],
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
         "@typescript-eslint/unbound-method": "error",

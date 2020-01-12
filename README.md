@@ -29,8 +29,6 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
-* `@typescript-eslint/strict-boolean-expressions`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/1025
 * `lines-between-class-members`
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `no-invalid-this`
