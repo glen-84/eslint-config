@@ -84,6 +84,7 @@ Run `npm install` to install the project dependencies.
 * `no-eq-null` – unnecessary with `eqeqeq`.
 * `no-extra-label` – unnecessary with `no-labels`.
 * `no-implicit-globals` – unnecessary with `parserOptions.sourceType = module`.
+* `no-implied-eval` – unnecessary with `@typescript-eslint/no-implied-eval`.
 * `no-label-var` – unnecessary with `no-labels`.
 * `no-magic-numbers` – unnecessary with `@typescript-eslint/no-magic-numbers`.
 * `no-mixed-requires` – unnecessary with `one-var` (option `never`).
