@@ -35,6 +35,7 @@ module.exports = {
             }
         ],
         "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/default-param-last": "error",
         "@typescript-eslint/func-call-spacing": "error",
         // Examples: T, U, V, TKey, TValue, T1, T10.
         "@typescript-eslint/generic-type-naming": ["error", "^[A-Z]([A-Z][a-z]+|\\d+)?$"],
@@ -166,7 +167,6 @@ module.exports = {
         "consistent-return": "error",
         "curly": "error",
         "default-case": "error",
-        "default-param-last": "error",
         "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eol-last": "error",

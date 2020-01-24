@@ -75,6 +75,7 @@ Run `npm install` to install the project dependencies.
 * `brace-style` – unnecessary with `@typescript-eslint/brace-style`.
 * `camelcase` – unnecessary with `@typescript-eslint/camelcase`.
 * `consistent-this` – unnecessary with `@typescript-eslint/no-this-alias`.
+* `default-param-last` – unnecessary with `@typescript-eslint/default-param-last`.
 * `func-call-spacing` – unnecessary with `@typescript-eslint/func-call-spacing`.
 * `indent` – unnecessary with `@typescript-eslint/indent`.
 * `no-array-constructor` – unnecessary with `@typescript-eslint/no-array-constructor`.
