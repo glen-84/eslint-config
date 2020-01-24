@@ -70,7 +70,7 @@ Run `npm install` to install the project dependencies.
 
 ### Unnecessary
 
-* `@typescript-eslint/no-untyped-public-signature` – unnecessary with `noImplicitAny: true` and `@typescript-eslint/explicit-function-return-type`.
+* `@typescript-eslint/explicit-module-boundary-types` – unnecessary with `noImplicitAny: true` and `@typescript-eslint/explicit-function-return-type`.
 * `block-scoped-var` – unnecessary with `no-var`.
 * `brace-style` – unnecessary with `@typescript-eslint/brace-style`.
 * `camelcase` – unnecessary with `@typescript-eslint/naming-convention`.
