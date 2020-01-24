@@ -25,8 +25,6 @@ module.exports = {
             }
         ],
         "@typescript-eslint/brace-style": "error",
-        "@typescript-eslint/camelcase": "error",
-        "@typescript-eslint/class-name-casing": "error",
         "@typescript-eslint/consistent-type-assertions": [
             "error",
             {
@@ -37,12 +35,8 @@ module.exports = {
         "@typescript-eslint/consistent-type-definitions": "error",
         "@typescript-eslint/default-param-last": "error",
         "@typescript-eslint/func-call-spacing": "error",
-        // Examples: T, U, V, TKey, TValue, T1, T10.
-        "@typescript-eslint/generic-type-naming": ["error", "^[A-Z]([A-Z][a-z]+|\\d+)?$"],
         "@typescript-eslint/indent": "error",
-        "@typescript-eslint/interface-name-prefix": "error",
         "@typescript-eslint/member-delimiter-style": "error",
-        "@typescript-eslint/member-naming": ["error", {public: "^(?!_)", protected: "^(?!_)"}],
         "@typescript-eslint/member-ordering": [
             "error",
             {
@@ -75,6 +69,44 @@ module.exports = {
                     "protected-abstract-method",
                     "private-abstract-method"
                 ]
+            }
+        ],
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                selector: "default",
+                format: ["strictCamelCase"]
+            },
+            {
+                selector: "typeLike",
+                format: ["StrictPascalCase"]
+            },
+            {
+                selector: "typeParameter",
+                format: ["PascalCase"],
+                custom: {
+                    // Examples: T, U, V, TKey, TValue, TContextType, T1, T10.
+                    regex: /^[A-Z]([A-Z][a-z]+|\d)*$/.source,
+                    match: true
+                }
+            },
+            {
+                selector: "property",
+                modifiers: ["public", "static", "readonly"],
+                format: ["UPPER_CASE"]
+            },
+            // https://github.com/typescript-eslint/typescript-eslint/issues/816
+            {
+                selector: "property",
+                modifiers: ["private"],
+                format: ["strictCamelCase"],
+                leadingUnderscore: "allow"
+            },
+            // https://github.com/typescript-eslint/typescript-eslint/issues/1510
+            {
+                selector: "parameter",
+                format: ["strictCamelCase"],
+                leadingUnderscore: "allow"
             }
         ],
         "@typescript-eslint/no-array-constructor": "error",
@@ -321,13 +353,6 @@ module.exports = {
         "no-template-curly-in-string": "error",
         "no-trailing-spaces": "error",
         "no-undef-init": "error",
-        "no-underscore-dangle": [
-            "error",
-            {
-                allowAfterThis: true, // For private backing fields.
-                enforceInMethodNames: true
-            }
-        ],
         "no-unexpected-multiline": "error",
         "no-unmodified-loop-condition": "error",
         "no-unneeded-ternary": ["error", {defaultAssignment: false}],

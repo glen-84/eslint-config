@@ -73,7 +73,7 @@ Run `npm install` to install the project dependencies.
 * `@typescript-eslint/no-untyped-public-signature` – unnecessary with `noImplicitAny: true` and `@typescript-eslint/explicit-function-return-type`.
 * `block-scoped-var` – unnecessary with `no-var`.
 * `brace-style` – unnecessary with `@typescript-eslint/brace-style`.
-* `camelcase` – unnecessary with `@typescript-eslint/camelcase`.
+* `camelcase` – unnecessary with `@typescript-eslint/naming-convention`.
 * `consistent-this` – unnecessary with `@typescript-eslint/no-this-alias`.
 * `default-param-last` – unnecessary with `@typescript-eslint/default-param-last`.
 * `func-call-spacing` – unnecessary with `@typescript-eslint/func-call-spacing`.
@@ -92,6 +92,7 @@ Run `npm install` to install the project dependencies.
 * `no-plusplus` – unnecessary with `@typescript-eslint/semi` (should not be affected by ASI).
 * `no-redeclare` – unnecessary with `no-var`.
 * `no-undefined` – unnecessary with `no-global-assign` and `no-shadow-restricted-names`.
+* `no-underscore-dangle` – unnecessary with `@typescript-eslint/naming-convention`.
 * `no-unused-labels` – unnecessary with `no-labels`.
 * `no-unused-vars` – unnecessary with `@typescript-eslint/no-unused-vars`.
 * `no-use-before-define` – unnecessary with `@typescript-eslint/no-use-before-define`.
@@ -130,7 +131,8 @@ Run `npm install` to install the project dependencies.
 
 * `@typescript-eslint/ban-types`
     * https://github.com/typescript-eslint/typescript-eslint/issues/842
-* `@typescript-eslint/member-naming`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/816
 * `@typescript-eslint/member-ordering`
     * https://github.com/typescript-eslint/typescript-eslint/issues/929
+* `@typescript-eslint/naming-convention`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/816
+    * https://github.com/typescript-eslint/typescript-eslint/issues/1510
