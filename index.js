@@ -100,6 +100,7 @@ module.exports = {
             "error",
             {
                 allowConstantLoopConditions: true,
+                checkArrayPredicates: true,
                 ignoreRhs: true
             }
         ],
