@@ -102,6 +102,13 @@ module.exports = {
                 format: ["strictCamelCase"],
                 leadingUnderscore: "allow"
             },
+            // Allow the special "toJSON" method to use non-strict camel case.
+            // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+            {
+                selector: "method",
+                filter: /^toJSON$/.source,
+                format: ["camelCase"]
+            },
             // https://github.com/typescript-eslint/typescript-eslint/issues/1510
             {
                 selector: "parameter",
