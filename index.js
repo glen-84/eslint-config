@@ -383,7 +383,27 @@ module.exports = {
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "operator-assignment": "error",
-        "operator-linebreak": "error",
+        "operator-linebreak": [
+            "error",
+            "before",
+            {
+                overrides: {
+                    "=": "after",
+                    "+=": "after",
+                    "-=": "after",
+                    "*=": "after",
+                    "/=": "after",
+                    "%=": "after",
+                    "**=": "after",
+                    "<<=": "after",
+                    ">>=": "after",
+                    ">>>=": "after",
+                    "&=": "after",
+                    "^=": "after",
+                    "|=": "after"
+                }
+            }
+        ],
         "padded-blocks": ["error", "never"],
         "padding-line-between-statements": [
             "error",
