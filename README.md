@@ -49,13 +49,13 @@ Run `npm install` to install the project dependencies.
 
 ### Handled by TypeScript
 
+* `@typescript-eslint/no-dupe-class-members` – ts(2393).
 * `@typescript-eslint/no-unused-vars` – ts(6133) with `noUnusedLocals` and `noUnusedParameters`.
 * `@typescript-eslint/typedef` – ts(7005), ts(7006), and ts(7008) with `noImplicitAny`.
 * `constructor-super` – ts(2335) and ts(2377).
 * `getter-return` – ts(2378).
 * `no-const-assign` – ts(2588).
 * `no-dupe-args` – ts(2300).
-* `no-dupe-class-members` – ts(2393).
 * `no-dupe-keys` – ts(1117).
 * `no-func-assign` – ts(2539).
 * `no-import-assign` – ts(2539).
@@ -82,6 +82,7 @@ Run `npm install` to install the project dependencies.
 * `no-array-constructor` – unnecessary with `@typescript-eslint/no-array-constructor`.
 * `no-async-promise-executor` – unnecessary with `@typescript-eslint/no-misused-promises`.
 * `no-constant-condition` – unnecessary with `@typescript-eslint/no-unnecessary-condition`.
+* `no-dupe-class-members` – unnecessary with `@typescript-eslint/no-dupe-class-members`.
 * `no-empty-function` – unnecessary with `@typescript-eslint/no-empty-function`.
 * `no-eq-null` – unnecessary with `eqeqeq`.
 * `no-extra-label` – unnecessary with `no-labels`.
