@@ -180,6 +180,7 @@ module.exports = {
             "error",
             {allowNullable: true, allowSafe: true, ignoreRhs: true}
         ],
+        "@typescript-eslint/switch-exhaustiveness-check": "error",
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
         "@typescript-eslint/unbound-method": "error",
