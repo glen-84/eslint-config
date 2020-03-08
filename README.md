@@ -29,6 +29,8 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
+* `@typescript-eslint/no-base-to-string`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/1655
 * `lines-between-class-members`
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `no-invalid-this`
@@ -41,6 +43,7 @@ Run `npm install` to install the project dependencies.
 * `@typescript-eslint/no-extra-parens` – extra parentheses sometimes aid readability.
 * `@typescript-eslint/no-magic-numbers` – difficult to follow, especially in existing projects.
 * `@typescript-eslint/no-type-alias` – partly handled by `@typescript-eslint/consistent-type-definitions`.
+* `@typescript-eslint/prefer-readonly-parameter-types`
 * `init-declarations`
 * `line-comment-position`
 * `no-continue` – see discussion in https://github.com/airbnb/javascript/issues/1103.
