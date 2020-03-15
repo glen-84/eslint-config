@@ -151,6 +151,7 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-type-arguments": "error",
         "@typescript-eslint/no-unnecessary-type-assertion": "error",
         "@typescript-eslint/no-unsafe-call": "error",
+        "@typescript-eslint/no-unsafe-member-access": "error",
         "@typescript-eslint/no-unused-expressions": [
             "error",
             {allowShortCircuit: true, allowTernary: true}
