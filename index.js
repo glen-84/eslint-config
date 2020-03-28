@@ -25,6 +25,7 @@ module.exports = {
             }
         ],
         "@typescript-eslint/brace-style": "error",
+        "@typescript-eslint/class-literal-property-style": "error",
         "@typescript-eslint/comma-spacing": "error",
         "@typescript-eslint/consistent-type-assertions": [
             "error",
