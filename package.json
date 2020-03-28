@@ -23,10 +23,10 @@
     "confusing-browser-globals": "^1.0.9"
   },
   "devDependencies": {
-    "@glen-84/prettier-config": "^1.0.0",
+    "@glen-84/prettier-config": "^2.0.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.9",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.24.0",
