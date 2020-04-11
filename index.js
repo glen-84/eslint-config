@@ -73,6 +73,7 @@ module.exports = {
                 ]
             }
         ],
+        "@typescript-eslint/method-signature-style": "error",
         "@typescript-eslint/naming-convention": [
             "error",
             {
