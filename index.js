@@ -173,6 +173,7 @@ module.exports = {
         "@typescript-eslint/prefer-reduce-type-parameter": "error",
         "@typescript-eslint/prefer-regexp-exec": "error",
         "@typescript-eslint/prefer-string-starts-ends-with": "error",
+        "@typescript-eslint/prefer-ts-expect-error": "error",
         "@typescript-eslint/promise-function-async": "error",
         "@typescript-eslint/quotes": ["error", "double", {avoidEscape: true}],
         "@typescript-eslint/require-array-sort-compare": "error",
