@@ -25,8 +25,8 @@
   "devDependencies": {
     "@glen-84/prettier-config": "^2.1.1",
     "husky": "^4.2.5",
-    "lint-staged": "^10.1.6",
-    "prettier": "^2.0.4"
+    "lint-staged": "^10.1.7",
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.28.0",
