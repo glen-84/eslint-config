@@ -40,11 +40,11 @@ Run `npm install` to install the project dependencies.
 
 ### Too strict
 
+* `@typescript-eslint/init-declarations`
 * `@typescript-eslint/no-extra-parens` – extra parentheses sometimes aid readability.
 * `@typescript-eslint/no-magic-numbers` – difficult to follow, especially in existing projects.
 * `@typescript-eslint/no-type-alias` – partly handled by `@typescript-eslint/consistent-type-definitions`.
 * `@typescript-eslint/prefer-readonly-parameter-types`
-* `init-declarations`
 * `line-comment-position`
 * `no-continue` – see discussion in https://github.com/airbnb/javascript/issues/1103.
 * `no-else-return` – okay for guard clauses, but symmetry is preferred in other cases.
@@ -82,6 +82,7 @@ Run `npm install` to install the project dependencies.
 * `default-param-last` – unnecessary with `@typescript-eslint/default-param-last`.
 * `func-call-spacing` – unnecessary with `@typescript-eslint/func-call-spacing`.
 * `indent` – unnecessary with `@typescript-eslint/indent`.
+* `init-declarations` – unnecessary with `@typescript-eslint/init-declarations`.
 * `no-array-constructor` – unnecessary with `@typescript-eslint/no-array-constructor`.
 * `no-async-promise-executor` – unnecessary with `@typescript-eslint/no-misused-promises`.
 * `no-constant-condition` – unnecessary with `@typescript-eslint/no-unnecessary-condition`.
