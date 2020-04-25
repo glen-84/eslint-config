@@ -38,6 +38,7 @@ module.exports = {
         "@typescript-eslint/default-param-last": "error",
         "@typescript-eslint/func-call-spacing": "error",
         "@typescript-eslint/indent": "error",
+        "@typescript-eslint/keyword-spacing": "error",
         "@typescript-eslint/member-delimiter-style": "error",
         "@typescript-eslint/member-ordering": [
             "error",
@@ -240,7 +241,6 @@ module.exports = {
         "implicit-arrow-linebreak": "error",
         "jsx-quotes": "error",
         "key-spacing": "error",
-        "keyword-spacing": "error",
         "linebreak-style": "error",
         "lines-around-comment": ["error", {allowBlockStart: true}],
         "max-classes-per-file": "error",
