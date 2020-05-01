@@ -29,8 +29,6 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
-* `@typescript-eslint/no-base-to-string`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/1655
 * `lines-between-class-members`
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `no-invalid-this`
