@@ -29,10 +29,10 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
+* `@typescript-eslint/no-invalid-this`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/491
 * `lines-between-class-members`
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
-* `no-invalid-this`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/491
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
@@ -90,6 +90,7 @@ Run `npm install` to install the project dependencies.
 * `no-extra-label` – unnecessary with `no-labels`.
 * `no-implicit-globals` – unnecessary with `parserOptions.sourceType = module`.
 * `no-implied-eval` – unnecessary with `@typescript-eslint/no-implied-eval`.
+* `no-invalid-this` – unnecessary with `@typescript-eslint/no-invalid-this`.
 * `no-label-var` – unnecessary with `no-labels`.
 * `no-magic-numbers` – unnecessary with `@typescript-eslint/no-magic-numbers`.
 * `no-mixed-requires` – unnecessary with `one-var` (option `never`).
