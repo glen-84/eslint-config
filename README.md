@@ -29,10 +29,10 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
+* `@typescript-eslint/lines-between-class-members`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `@typescript-eslint/no-invalid-this`
     * https://github.com/typescript-eslint/typescript-eslint/issues/491
-* `lines-between-class-members`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
@@ -81,6 +81,7 @@ Run `npm install` to install the project dependencies.
 * `func-call-spacing` – unnecessary with `@typescript-eslint/func-call-spacing`.
 * `indent` – unnecessary with `@typescript-eslint/indent`.
 * `init-declarations` – unnecessary with `@typescript-eslint/init-declarations`.
+* `lines-between-class-members` – unnecessary with `@typescript-eslint/lines-between-class-members`.
 * `no-array-constructor` – unnecessary with `@typescript-eslint/no-array-constructor`.
 * `no-async-promise-executor` – unnecessary with `@typescript-eslint/no-misused-promises`.
 * `no-constant-condition` – unnecessary with `@typescript-eslint/no-unnecessary-condition`.
