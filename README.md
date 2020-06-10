@@ -135,8 +135,6 @@ Run `npm install` to install the project dependencies.
 
 ## Used rules with issues
 
-* `@typescript-eslint/ban-types`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/842
 * `@typescript-eslint/member-ordering`
     * https://github.com/typescript-eslint/typescript-eslint/issues/929
 * `@typescript-eslint/naming-convention`

@@ -14,16 +14,7 @@ module.exports = {
         "@typescript-eslint/array-type": ["error", {default: "array-simple"}],
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/ban-ts-comment": "error",
-        "@typescript-eslint/ban-types": [
-            "error",
-            {
-                types: {
-                    "{}": {
-                        message: "Every type except null and undefined is assignable to {}."
-                    }
-                }
-            }
-        ],
+        "@typescript-eslint/ban-types": "error",
         "@typescript-eslint/brace-style": "error",
         "@typescript-eslint/class-literal-property-style": "error",
         "@typescript-eslint/comma-spacing": "error",
@@ -130,7 +121,7 @@ module.exports = {
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-extra-semi": "error",
         "@typescript-eslint/no-extraneous-class": ["error", {allowWithDecorator: true}],
-        "@typescript-eslint/no-floating-promises": ["error", {ignoreVoid: true}],
+        "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-for-in-array": "error",
         "@typescript-eslint/no-implied-eval": "error",
         "@typescript-eslint/no-inferrable-types": "error",
@@ -147,11 +138,7 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
         "@typescript-eslint/no-unnecessary-condition": [
             "error",
-            {
-                allowConstantLoopConditions: true,
-                checkArrayPredicates: true,
-                ignoreRhs: true
-            }
+            {allowConstantLoopConditions: true}
         ],
         "@typescript-eslint/no-unnecessary-qualifier": "error",
         "@typescript-eslint/no-unnecessary-type-arguments": "error",
@@ -173,7 +160,7 @@ module.exports = {
         "@typescript-eslint/prefer-includes": "error",
         "@typescript-eslint/prefer-namespace-keyword": "error",
         "@typescript-eslint/prefer-nullish-coalescing": "error",
-        "@typescript-eslint/prefer-optional-chain": ["error", {suggestInsteadOfAutofix: true}],
+        "@typescript-eslint/prefer-optional-chain": "error",
         "@typescript-eslint/prefer-readonly": "error",
         "@typescript-eslint/prefer-reduce-type-parameter": "error",
         "@typescript-eslint/prefer-regexp-exec": "error",
@@ -184,14 +171,15 @@ module.exports = {
         "@typescript-eslint/require-array-sort-compare": "error",
         "@typescript-eslint/require-await": "error",
         "@typescript-eslint/restrict-plus-operands": ["error", {checkCompoundAssignments: true}],
-        "@typescript-eslint/restrict-template-expressions": ["error", {allowBoolean: true}],
+        "@typescript-eslint/restrict-template-expressions": [
+            "error",
+            // Numbers should be localized (f.e. using Intl.NumberFormat).
+            {allowBoolean: true, allowNumber: false}
+        ],
         "@typescript-eslint/return-await": "error",
         "@typescript-eslint/semi": "error",
         "@typescript-eslint/space-before-function-paren": ["error", {named: "never"}],
-        "@typescript-eslint/strict-boolean-expressions": [
-            "error",
-            {allowNullable: true, allowSafe: true, ignoreRhs: true}
-        ],
+        "@typescript-eslint/strict-boolean-expressions": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "error",
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
