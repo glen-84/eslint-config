@@ -209,6 +209,7 @@ module.exports = {
         "computed-property-spacing": "error",
         "consistent-return": "error",
         "curly": "error",
+        "default-case-last": "error",
         "default-case": "error",
         "dot-location": ["error", "property"],
         "eol-last": "error",
