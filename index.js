@@ -307,6 +307,13 @@ module.exports = {
         "no-proto": "error",
         "no-prototype-builtins": "error",
         "no-regex-spaces": "error",
+        "no-restricted-exports": [
+            "error",
+            {
+                // See https://github.com/eslint/eslint/issues/10428.
+                restrictedNamedExports: ["default", "then"]
+            }
+        ],
         "no-restricted-globals": ["error", "isFinite", "isNaN"].concat(confusingBrowserGlobals),
         "no-restricted-properties": [
             "error",
