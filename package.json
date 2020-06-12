@@ -30,7 +30,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.0.2",
-    "eslint": "^6.8.0 || ^7.0.0"
+    "eslint": "^7.0.0"
   },
   "repository": {
     "type": "git",
