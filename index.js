@@ -374,6 +374,7 @@ module.exports = {
         "no-unmodified-loop-condition": "error",
         "no-unneeded-ternary": ["error", {defaultAssignment: false}],
         "no-unsafe-finally": "error",
+        "no-useless-backreference": "error",
         "no-useless-call": "error",
         "no-useless-catch": "error",
         "no-useless-computed-key": ["error", {enforceForClassMembers: true}],
