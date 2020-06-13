@@ -188,7 +188,7 @@ module.exports = {
         "accessor-pairs": "error",
         "array-bracket-newline": ["error", "consistent"],
         "array-bracket-spacing": "error",
-        "array-callback-return": "error",
+        "array-callback-return": ["error", {checkForEach: true}],
         "array-element-newline": ["error", "consistent"],
         "arrow-body-style": "error",
         "arrow-parens": "error",
