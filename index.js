@@ -272,7 +272,7 @@ module.exports = {
         "no-ex-assign": "error",
         "no-extend-native": "error",
         "no-extra-bind": "error",
-        "no-extra-boolean-cast": "error",
+        "no-extra-boolean-cast": ["error", {enforceForLogicalOperands: true}],
         "no-fallthrough": "error",
         "no-floating-decimal": "error",
         "no-global-assign": "error",
