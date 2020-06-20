@@ -308,6 +308,7 @@ module.exports = {
         "no-param-reassign": "error",
         "no-path-concat": "error",
         "no-process-exit": "error",
+        "no-promise-executor-return": "error",
         "no-proto": "error",
         "no-prototype-builtins": "error",
         "no-regex-spaces": "error",
