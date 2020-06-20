@@ -378,6 +378,7 @@ module.exports = {
         "no-unexpected-multiline": "error",
         "no-unmodified-loop-condition": "error",
         "no-unneeded-ternary": ["error", {defaultAssignment: false}],
+        "no-unreachable-loop": "error",
         "no-unsafe-finally": "error",
         "no-useless-backreference": "error",
         "no-useless-call": "error",
