@@ -29,8 +29,6 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
-* `@typescript-eslint/lines-between-class-members`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `@typescript-eslint/no-invalid-this`
     * https://github.com/typescript-eslint/typescript-eslint/issues/491
 * `require-atomic-updates`

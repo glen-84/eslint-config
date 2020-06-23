@@ -34,6 +34,11 @@ module.exports = {
         "@typescript-eslint/func-call-spacing": "error",
         "@typescript-eslint/indent": "error",
         "@typescript-eslint/keyword-spacing": "error",
+        "@typescript-eslint/lines-between-class-members": [
+            "error",
+            "always",
+            {exceptAfterSingleLine: true}
+        ],
         "@typescript-eslint/member-delimiter-style": "error",
         "@typescript-eslint/member-ordering": [
             "error",
