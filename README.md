@@ -33,8 +33,6 @@ Run `npm install` to install the project dependencies.
     * https://github.com/typescript-eslint/typescript-eslint/issues/977
 * `@typescript-eslint/no-invalid-this`
     * https://github.com/typescript-eslint/typescript-eslint/issues/491
-* `no-loss-of-precision`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/2076
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
