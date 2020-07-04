@@ -114,7 +114,7 @@ Run `npm install` to install the project dependencies.
 
 * `@typescript-eslint/ban-tslint-comment`
 * `callback-return` – has false positives, and callback functions are not likely to be used much.
-* `id-blacklist`
+* `id-denylist`
 * `id-match` – unable to exclude import names.
 * `max-lines`
 * `max-params`
