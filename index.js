@@ -82,7 +82,7 @@ module.exports = {
                 format: ["strictCamelCase"]
             },
             {
-                selector: "typeLike",
+                selector: ["enumMember", "typeLike"],
                 format: ["StrictPascalCase"]
             },
             {
@@ -118,10 +118,6 @@ module.exports = {
                 selector: "parameter",
                 format: ["strictCamelCase"],
                 leadingUnderscore: "allow"
-            },
-            {
-                selector: "enumMember",
-                format: ["StrictPascalCase"]
             }
         ],
         "@typescript-eslint/no-array-constructor": "error",
