@@ -26,6 +26,7 @@ module.exports = {
             }
         ],
         "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/default-param-last": "error",
         "@typescript-eslint/dot-notation": "error",
         "@typescript-eslint/func-call-spacing": "error",
@@ -275,7 +276,6 @@ module.exports = {
         "no-div-regex": "error",
         "no-dupe-else-if": "error",
         "no-duplicate-case": "error",
-        "no-duplicate-imports": ["error", {includeExports: true}],
         "no-empty": "error",
         "no-empty-character-class": "error",
         "no-empty-pattern": "error",
