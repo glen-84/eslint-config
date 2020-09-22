@@ -17,6 +17,7 @@ module.exports = {
         "@typescript-eslint/ban-types": "error",
         "@typescript-eslint/brace-style": "error",
         "@typescript-eslint/class-literal-property-style": "error",
+        "@typescript-eslint/comma-dangle": "error",
         "@typescript-eslint/comma-spacing": "error",
         "@typescript-eslint/consistent-type-assertions": [
             "error",
@@ -216,7 +217,6 @@ module.exports = {
             }
         ],
         "class-methods-use-this": "error",
-        "comma-dangle": "error",
         "comma-style": "error",
         "complexity": "error",
         "computed-property-spacing": "error",
