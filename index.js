@@ -134,7 +134,7 @@ module.exports = {
         "@typescript-eslint/no-implicit-any-catch": "error",
         "@typescript-eslint/no-implied-eval": "error",
         "@typescript-eslint/no-inferrable-types": "error",
-        "@typescript-eslint/no-invalid-void-type": "error",
+        "@typescript-eslint/no-invalid-void-type": ["error", {allowAsThisParameter: true}],
         "@typescript-eslint/no-loop-func": "error",
         "@typescript-eslint/no-loss-of-precision": "error",
         "@typescript-eslint/no-misused-new": "error",
