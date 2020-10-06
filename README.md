@@ -29,10 +29,10 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
+* `@typescript-eslint/no-duplicate-imports`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/2636
 * `@typescript-eslint/no-invalid-this`
     * https://github.com/typescript-eslint/typescript-eslint/issues/491
-* `no-duplicate-imports`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/2315
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
