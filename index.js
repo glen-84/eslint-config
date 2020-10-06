@@ -19,6 +19,7 @@ module.exports = {
         "@typescript-eslint/class-literal-property-style": "error",
         "@typescript-eslint/comma-dangle": "error",
         "@typescript-eslint/comma-spacing": "error",
+        "@typescript-eslint/consistent-indexed-object-style": "error",
         "@typescript-eslint/consistent-type-assertions": [
             "error",
             {
