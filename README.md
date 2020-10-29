@@ -29,8 +29,6 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
-* `@typescript-eslint/no-invalid-this`
-    * https://github.com/typescript-eslint/typescript-eslint/issues/491
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
@@ -49,6 +47,7 @@ Run `npm install` to install the project dependencies.
 ### Handled by TypeScript
 
 * `@typescript-eslint/no-dupe-class-members` – ts(2393).
+* `@typescript-eslint/no-invalid-this` – ts(2683) and ts(7041).
 * `@typescript-eslint/no-unused-vars` – ts(6133) with `noUnusedLocals` and `noUnusedParameters`.
 * `@typescript-eslint/typedef` – ts(7005), ts(7006), and ts(7008) with `noImplicitAny`.
 * `constructor-super` – ts(2335) and ts(2377).
