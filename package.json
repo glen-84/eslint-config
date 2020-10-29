@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.4.0",
-    "confusing-browser-globals": "^1.0.9"
+    "confusing-browser-globals": "^1.0.10"
   },
   "devDependencies": {
     "@glen-84/prettier-config": "^2.1.1",
