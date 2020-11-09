@@ -107,6 +107,7 @@ Run `npm install` to install the project dependencies.
 * `semi` – unnecessary with `@typescript-eslint/semi`.
 * `sort-vars` – unnecessary with `one-var`.
 * `space-before-function-paren` – unnecessary with `@typescript-eslint/space-before-function-paren`.
+* `space-infix-ops` – unnecessary with `@typescript-eslint/space-infix-ops`.
 * `vars-on-top` – unnecessary with `no-var`.
 
 ### No use for
