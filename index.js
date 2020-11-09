@@ -14,7 +14,16 @@ module.exports = {
         "@typescript-eslint/array-type": ["error", {default: "array-simple"}],
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/ban-ts-comment": ["error", {minimumDescriptionLength: 10}],
-        "@typescript-eslint/ban-types": "error",
+        "@typescript-eslint/ban-types": [
+            "error",
+            {
+                extendDefaults: true,
+                types: {
+                    "[]":
+                        "It will only allow empty arrays. Use `SomeType[]` (array) or `[SomeType]` (tuple) instead."
+                }
+            }
+        ],
         "@typescript-eslint/brace-style": "error",
         "@typescript-eslint/class-literal-property-style": "error",
         "@typescript-eslint/comma-dangle": "error",
