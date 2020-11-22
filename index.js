@@ -324,6 +324,7 @@ module.exports = {
         "no-new-object": "error",
         "no-new-require": "error",
         "no-new-wrappers": "error",
+        "no-nonoctal-decimal-escape": "error",
         "no-octal": "error",
         "no-octal-escape": "error",
         "no-param-reassign": "error",
