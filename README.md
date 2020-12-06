@@ -64,6 +64,7 @@ Run `npm install` to install the project dependencies.
 * `no-undef` – ts(2304).
 * `no-unreachable` – ts(7027) with `allowUnreachableCode: false`.
 * `no-unsafe-negation` – ts(2358), ts(2360), and ts(2365).
+* `no-unsafe-optional-chaining` – ts(2349), ts(2507), ts(2532), and ts(2722).
 * `valid-typeof` – ts(2367).
 
 ### Unnecessary
