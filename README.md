@@ -138,4 +138,3 @@ Run `npm install` to install the project dependencies.
     * https://github.com/typescript-eslint/typescript-eslint/issues/929
 * `@typescript-eslint/naming-convention`
     * https://github.com/typescript-eslint/typescript-eslint/issues/816
-    * https://github.com/typescript-eslint/typescript-eslint/issues/1510

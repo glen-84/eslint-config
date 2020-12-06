@@ -91,6 +91,16 @@ module.exports = {
                 format: ["strictCamelCase"]
             },
             {
+                selector: "variable",
+                modifiers: ["exported", "const"],
+                format: ["UPPER_CASE"]
+            },
+            {
+                selector: "variable",
+                modifiers: ["global", "const"],
+                format: ["strictCamelCase", "UPPER_CASE"]
+            },
+            {
                 selector: ["enumMember", "typeLike"],
                 format: ["StrictPascalCase"]
             },
@@ -122,9 +132,9 @@ module.exports = {
                 filter: /^toJSON$/.source,
                 format: ["camelCase"]
             },
-            // https://github.com/typescript-eslint/typescript-eslint/issues/1510
             {
                 selector: "parameter",
+                modifiers: ["unused"],
                 format: ["strictCamelCase"],
                 leadingUnderscore: "allow"
             }
