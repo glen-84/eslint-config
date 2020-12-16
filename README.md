@@ -114,6 +114,7 @@ Run `npm install` to install the project dependencies.
 ### No use for
 
 * `@typescript-eslint/ban-tslint-comment`
+* `@typescript-eslint/non-nullable-type-assertion-style` – conflicts with `@typescript-eslint/no-non-null-assertion`.
 * `callback-return` – has false positives, and callback functions are not likely to be used much.
 * `id-denylist`
 * `id-match` – unable to exclude import names.
