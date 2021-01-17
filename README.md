@@ -29,6 +29,8 @@ Run `npm install` to install the project dependencies.
 
 ### Has issues
 
+* `@typescript-eslint/sort-type-union-intersection-members`
+    * https://github.com/typescript-eslint/typescript-eslint/issues/2937
 * `require-atomic-updates`
     * https://github.com/eslint/eslint/issues/11899
 
