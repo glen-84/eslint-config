@@ -104,6 +104,7 @@ Run `npm install` to install the project dependencies.
 * `no-use-before-define` – unnecessary with `@typescript-eslint/no-use-before-define`.
 * `no-useless-constructor` – unnecessary with `@typescript-eslint/no-useless-constructor`.
 * `nonblock-statement-body-position` – unnecessary with `curly`.
+* `object-curly-spacing` – unnecessary with `@typescript-eslint/object-curly-spacing`.
 * `one-var-declaration-per-line` – unnecessary with `one-var`.
 * `quotes` – unnecessary with `@typescript-eslint/quotes`.
 * `require-await` – unnecessary with `@typescript-eslint/require-await`.
