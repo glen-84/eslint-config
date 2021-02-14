@@ -99,6 +99,7 @@ Run `npm install` to install the project dependencies.
 * `no-redeclare` – unnecessary with `no-var`.
 * `no-undefined` – unnecessary with `no-global-assign` and `no-shadow-restricted-names`.
 * `no-underscore-dangle` – unnecessary with `@typescript-eslint/naming-convention`.
+* `no-unused-expressions` – unnecessary with `@typescript-eslint/no-unused-expressions`.
 * `no-unused-labels` – unnecessary with `no-labels`.
 * `no-unused-vars` – unnecessary with `@typescript-eslint/no-unused-vars`.
 * `no-use-before-define` – unnecessary with `@typescript-eslint/no-use-before-define`.
