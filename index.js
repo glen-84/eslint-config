@@ -93,7 +93,7 @@ module.exports = {
             {
                 selector: "variable",
                 modifiers: ["exported", "const"],
-                format: ["UPPER_CASE"]
+                format: ["strictCamelCase", "UPPER_CASE"]
             },
             {
                 selector: "variable",
