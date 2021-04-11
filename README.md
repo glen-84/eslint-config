@@ -22,7 +22,7 @@ Run `npm install` to install the project dependencies.
 [Authenticate](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages) with `npm login --registry=https://npm.pkg.github.com/` using your GitHub username and a personal access token (with the `write:packages` scope).
 
 1. Run `npm version patch` (replace `patch` [as necessary](https://docs.npmjs.com/cli/version)) to increase the version number.
-2. Run `git push && git push --tags` to push the version commit and tag.
+2. Run `git push --atomic --follow-tags` to push the version commit and tag.
 3. Run `npm publish` to publish the new version.
 
 ## Unused rules
