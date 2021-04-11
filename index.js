@@ -314,7 +314,7 @@ module.exports = {
         "no-fallthrough": "error",
         "no-floating-decimal": "error",
         "no-global-assign": "error",
-        "no-implicit-coercion": "error",
+        "no-implicit-coercion": ["error", {disallowTemplateShorthand: true}],
         "no-inner-declarations": "error",
         "no-invalid-regexp": "error",
         "no-irregular-whitespace": "error",
