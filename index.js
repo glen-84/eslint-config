@@ -239,7 +239,7 @@ module.exports = {
             "always",
             {
                 block: {ignoreInlineComments: true},
-                line: {ignoreConsecutiveComments: true}
+                line: {ignoreConsecutiveComments: true, ignorePattern: "spell-checker:"}
             }
         ],
         "class-methods-use-this": "error",
