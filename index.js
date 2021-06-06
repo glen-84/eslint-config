@@ -19,8 +19,7 @@ module.exports = {
             {
                 extendDefaults: true,
                 types: {
-                    "[]":
-                        "It will only allow empty arrays. Use `SomeType[]` (array) or `[SomeType]` (tuple) instead."
+                    "[]": "It will only allow empty arrays. Use `SomeType[]` (array) or `[SomeType]` (tuple) instead."
                 }
             }
         ],
