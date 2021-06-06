@@ -53,6 +53,7 @@ module.exports = {
             {
                 default: [
                     "signature",
+                    "call-signature",
 
                     "public-static-field",
                     "protected-static-field",
